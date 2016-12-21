@@ -131,6 +131,9 @@ brew "ruby-build"
 brew "redis", restart_service: true
 EOF
 
+fancy_echo "Installing nvm ..."
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+
 fancy_echo "Configuring Ruby ..."
 find_latest_ruby() {
   rbenv install -l | grep -v - | tail -1 | sed -e 's/^ *//'
