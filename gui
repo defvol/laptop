@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+# Install apps
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install slack
+brew cask install atom
+brew cask install evernote
+brew cask install tunnelblick
