@@ -103,9 +103,7 @@ tap "homebrew/services"
 brew "ctags"
 brew "git"
 brew "openssl"
-brew "rcm"
 brew "reattach-to-user-namespace"
-brew "the_silver_searcher"
 brew "tmux"
 brew "vim"
 brew "zsh"
@@ -130,7 +128,6 @@ brew "rbenv"
 brew "ruby-build"
 
 # Databases
-brew "postgres", restart_service: true
 brew "redis", restart_service: true
 EOF
 
