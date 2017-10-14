@@ -45,3 +45,5 @@ chsh -s $(which zsh)
 
 # update .zshrc with NVM vars
 cat ~/.bashrc | tail -n 3 >> ~/.zshrc
+
+git config --global core.editor vim
