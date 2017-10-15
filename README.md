@@ -1,7 +1,7 @@
 Laptop
 ======
 
-Laptop is a script to set up an macOS laptop for web development.
+Laptop is a script to set up an ~~macOS~~ laptop for ~~web~~ software development.
 
 It can be run multiple times on the same machine safely.
 It installs, upgrades, or skips packages
