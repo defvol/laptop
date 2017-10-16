@@ -44,6 +44,7 @@ chsh -s $(which zsh)
 
 # a vim distribution with kewl extensions
 curl -L https://bit.ly/janus-bootstrap | bash
+echo 'color molokai' >> ~/.gvimrc.after
 
 # PROFILE
 # -------
