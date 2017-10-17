@@ -6,7 +6,7 @@
 # SOURCES
 # -------
 
-sudo apt install -y build-essential libssl-dev vim vim-gnome git curl imagemagick chromium-browser virtualbox zsh xclip openvpn network-manager-openvpn-gnome
+sudo apt install -y build-essential libssl-dev vim vim-gnome git curl imagemagick chromium-browser virtualbox zsh xclip openvpn network-manager-openvpn-gnome ffmpeg
 
 # chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
