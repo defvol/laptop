@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Setup script for software development on Linux
-# System specs: Ubuntu 16.04
+# System specs: Ubuntu 19.04
 
 # SOURCES
 # -------
@@ -27,15 +27,15 @@ sudo apt install -y google-chrome-stable spotify-client yarn
 # ---------
 
 # node
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
 # close and reopen your terminal to start using nvm or run the following to use it now:
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 nvm install node
-nvm install 6
-nvm alias default 6
+nvm install 8
+nvm alias default 8
 
 # oh-my-zsh
 sudo apt install -y zsh
