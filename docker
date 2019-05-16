@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Requisites
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+# Add the repo
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+sudo apt update
+
+# Install
+sudo apt install docker-ce
+
+# Add user to docker group to remove the need for sudo
+sudo usermod -aG docker ${USER}
+su - ${USER}
